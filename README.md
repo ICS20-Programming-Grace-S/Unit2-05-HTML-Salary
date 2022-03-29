@@ -1,1 +1,2 @@
 # Unit2-05-HTML-Salary
+(https://github.com/ICS20-Programming-Grace-S/Unit2-05-HTML-Salary/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS20-Programming-Grace-S/Unit2-05-HTML-Salary/actions)
