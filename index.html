@@ -13,11 +13,18 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Salary, with a JS file</title>
   </head>
-  <center><body>
-    <script src="./js/script.js"></script>
-    <h1>Salary Pay, with a JS file</h1>
-    <p>
+  <center>
+    <body>
+      <!-- Js file-->
+      <script src="./js/script.js"></script>
+
+      <!-- Header -->
+      <h1>Salary Pay, with a JS file</h1>
+
+      <!-- Employment -->
       <h3>Please Enter Your Employment Information:</h3>
+      
+      <!-- Whan payClicked -->
       <form action="javascript:payClicked()">
         <label for="Hours">Number of Hours Worked:</label>
         <input type="number" step="any" id="hours" placeholder="Hours"><br><br>
@@ -25,11 +32,12 @@
         <input type="number" step="any" id="rate" placeholder="Rate"><br><br>
         <input type="submit" value="Pay">
       </form>
-    </p>
-		<!-- Create a space where the user information will be displayed -->
-		<div id="display-results">
-    	<div id="total-earned"></div>
-			<div id="tax"></div>
-		</div>
-  </body></center>
+      
+      <!-- Create a space where the user information will be displayed -->
+      <div id="display-results">
+        <div id="total-earned"></div>
+        <div id="tax"></div>
+      </div>
+    </body>
+  </center>
 </html>

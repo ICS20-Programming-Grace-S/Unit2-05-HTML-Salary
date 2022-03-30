@@ -5,7 +5,7 @@
 "use strict"
 
 // declare constants
-const TAX_BRACKET = 0.1805
+const SALARY_TAXED = 0.1805
 
 /**
  * This function calculates hours and rate
@@ -17,7 +17,7 @@ function payClicked () {
 
   // calculate the pay and the tax
   let total_pay = hours * rate
-  let tax = TAX_BRACKET * total_pay
+  let tax = SALARY_TAXED * total_pay
 	let total_earned = total_pay - tax 
 
   // display the results
